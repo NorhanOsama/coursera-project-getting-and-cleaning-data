@@ -1,0 +1,13 @@
+# Variables
+- x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
+- x_dataset, y_dataset and subject_dataset merge the previous datasets to further analysis.
+- features contains the correct names for the x_dataset dataset, which are applied to the column names stored in mean_std, a numeric vector used to extract the desired data.
+- A similar approach is taken with activity names through the activities variable.
+- singledata merges x_data, y_data and subject_data in a big dataset.
+- The tidy_data.txt data file is a text file, containing space-separated values.
+
+
+# Tidy Data
+The tidydata.txt data file is a text file, containing space-separated values.
+
+The first row contains the names of the variables, which are listed and described in the Variables section, and the following rows contain the values of these variables.
